@@ -5,10 +5,16 @@
   border-radius: 16px;
   box-shadow: 4px 4px black;
   text-align: center;
+  transition: 0.15s all;
 }
 
 .card > h2 {
   font-size: 32px;
+}
+
+.card:hover {
+  box-shadow: 4px 4px black;
+  translate: -4px -4px;
 }
 
 .card > img {
