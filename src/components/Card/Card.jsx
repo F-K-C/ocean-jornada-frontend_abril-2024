@@ -13,9 +13,6 @@ export default function Card(props) {
                 {item.tags.map(function(tag){
                     return <Tag text={tag} />
                 })}
-                <Tag text='Status: Vivo'/>
-                <Tag text='Espécie: Humana'/>
-                <Tag text='Origem: Terra c-137'/>
             </div>
             
             <img src={item.image} />
