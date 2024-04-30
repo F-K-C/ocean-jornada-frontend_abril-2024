@@ -1,7 +1,7 @@
 import Tag from "../Tag/Tag"
 
 export default function Card(props) {
-    const item = props.item
+    const item = props.items
 
     console.log(item)
 
